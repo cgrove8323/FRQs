@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=StudentRecord
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ StudentRecord\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=scores
+comment1.target=StudentRecord(int[])
+comment2.params=first\ last
+comment2.target=double\ average(int,\ int)
+comment2.text=\r\n\r\n\ @param\ \ first\ index\ of\ starting\ grade\r\n\ @param\ last\ index\ of\ ending\ grade,\ inclusive\r\n\ @return\ arithmetic\ mean\ of\ grades\ between\ first\ and\ last\ index\r\n
+comment3.params=
+comment3.target=boolean\ hasImproved()
+comment3.text=\r\n\ \r\n\ @return\ true\ if\ every\ grade\ is\ greater\ than\ or\ equal\ to\ previous\ grade,\r\n\ \ and\ false\ otherwise\r\n
+comment4.params=
+comment4.target=double\ finalAverage()
+comment4.text=\r\n\ @return\ average\ of\ all\ scores\ if\ not\ improved,\ second\ half\ of\ scores\r\n\ if\ improved\r\n
+numComments=5
