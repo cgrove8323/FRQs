@@ -2,23 +2,32 @@
 /**
  * Write a description of class Tester here.
  *
- * @author (Casey Groves)
- * @version (November 1, 2018)
+ * @author (your name)
+ * @version (a version number or a date)
  */
 public class Tester
 {
+    // instance variables - replace the example below with your own
+    private int x;
 
-    public static void main(String[] args){
-        SelfDivisor s1 = new SelfDivisor();
-        System.out.println(s1.isSelfDivisor(128));
-        System.out.println(s1.isSelfDivisor(26));
-        int[] result = s1.firstNumSelfDivisors(10, 3);
-        for (int i = 0; i < result.length; i++){
-            System.out.println(result[i]);
-        }
-        int[] result2 = s1.firstNumSelfDivisors(21, 4);
-        for (int i = 0; i < result2.length; i++){
-            System.out.println(result2[i]);
-        }
+    /**
+     * Constructor for objects of class Tester
+     */
+    public Tester()
+    {
+        // initialise instance variables
+        x = 0;
+    }
+
+    /**
+     * An example of a method - replace this comment with your own
+     *
+     * @param  y  a sample parameter for a method
+     * @return    the sum of x and y
+     */
+    public int sampleMethod(int y)
+    {
+        // put your code here
+        return x + y;
     }
 }
